@@ -2,8 +2,6 @@
 
 This section contains packet captures, traffic analysis exercises, and investigations using Wireshark to identify anomalies, suspicious behavior, and potential indicators of compromise within network traffic.
 
----
-
 ## Objectives
 - Analyze packet captures using Wireshark  
 - Identify malicious or abnormal traffic  
@@ -11,15 +9,11 @@ This section contains packet captures, traffic analysis exercises, and investiga
 - Detect scanning behavior, beaconing, and suspicious patterns  
 - Document findings and produce analyst summaries  
 
----
-
 ##  Contents
 - **pcap-analysis.md** – written breakdown of packet captures  
 - **protocol-breakdowns.md** – explanations of key protocols and how they behave  
 - **malicious-traffic.md** – detection of suspicious traffic patterns  
 - **screenshots/** – Wireshark screenshots supporting analysis  
-
----
 
 ##  Example Traffic Analysis
 
@@ -32,8 +26,6 @@ This section contains packet captures, traffic analysis exercises, and investiga
 **Possible Explanation:**  
 This behavior resembles command and control (C2) beaconing.
 
----
-
 ### **HTTP Traffic Review**
 **Findings:**
 - Unencrypted login form submissions  
@@ -43,22 +35,18 @@ This behavior resembles command and control (C2) beaconing.
 **Recommendation:**  
 Implement HTTPS enforcement and review server-side logs.
 
----
-
 ### **DNS Analysis**
 **Suspicious Indicators:**
 - Long or randomly generated domain names  
 - Multiple failed DNS lookups  
 - Frequent DNS queries to foreign TLDs  
 
-Example:---
+Example:
 
 ##  Tools Used
 - Wireshark  
 - TCPDump  
-- Packet Capture Files (PCAP)  
-
----
+- Packet Capture Files (PCAP) 
 
 ##  Sample Analyst Summary
 
@@ -70,9 +58,7 @@ Continuous outbound connections detected from host 192.168.1.45 to an IP registe
 **Action Taken:**  
 - Captured packets for further review  
 - Flagged host in SIEM  
-- Recommended isolation for deeper forensics  
-
----
+- Recommended isolation for deeper forensics 
 
 ##  Skills Demonstrated
 - Packet Analysis  
