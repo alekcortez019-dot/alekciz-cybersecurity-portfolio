@@ -5,7 +5,7 @@ This analysis focuses on suspicious network traffic captured in a PCAP file. The
 
 ---
 
-## 🔍 Key Observations
+##  Key Observations
 
 ### 1. Repeated Outbound Connections
 - Destination IP: 103.229.33.12  
