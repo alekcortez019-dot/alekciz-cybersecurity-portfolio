@@ -2,8 +2,6 @@
 
 This document outlines the workflow used to validate alerts, collect evidence, and determine whether escalation is needed within a SOC environment.
 
----
-
 ## Triage Steps
 
 ### 1. Validate the Alert
@@ -42,8 +40,6 @@ Escalate to Tier 2 if:
 - What log sources were reviewed  
 - What conclusions were reached  
 - Recommended action  
-
----
 
 ##  Example Alert
 
