@@ -1,10 +1,10 @@
-# 🌐 Network Traffic Analysis
+#  Network Traffic Analysis
 
 This section contains packet captures, traffic analysis exercises, and investigations using Wireshark to identify anomalies, suspicious behavior, and potential indicators of compromise within network traffic.
 
 ---
 
-## 📌 Objectives
+## Objectives
 - Analyze packet captures using Wireshark  
 - Identify malicious or abnormal traffic  
 - Understand common protocols (TCP, UDP, DNS, HTTP, ARP)  
@@ -13,7 +13,7 @@ This section contains packet captures, traffic analysis exercises, and investiga
 
 ---
 
-## 📂 Contents
+##  Contents
 - **pcap-analysis.md** – written breakdown of packet captures  
 - **protocol-breakdowns.md** – explanations of key protocols and how they behave  
 - **malicious-traffic.md** – detection of suspicious traffic patterns  
@@ -21,7 +21,7 @@ This section contains packet captures, traffic analysis exercises, and investiga
 
 ---
 
-## 🧪 Example Traffic Analysis
+##  Example Traffic Analysis
 
 ### **Suspicious Beaconing Behavior**
 **Indicators:**
@@ -53,14 +53,14 @@ Implement HTTPS enforcement and review server-side logs.
 
 Example:---
 
-## 🛠 Tools Used
+##  Tools Used
 - Wireshark  
 - TCPDump  
 - Packet Capture Files (PCAP)  
 
 ---
 
-## 📝 Sample Analyst Summary
+##  Sample Analyst Summary
 
 **Event:** Suspicious outbound traffic  
 **Severity:** Medium  
@@ -74,7 +74,7 @@ Continuous outbound connections detected from host 192.168.1.45 to an IP registe
 
 ---
 
-## ✅ Skills Demonstrated
+##  Skills Demonstrated
 - Packet Analysis  
 - Wireshark Investigation  
 - Protocol Understanding  
