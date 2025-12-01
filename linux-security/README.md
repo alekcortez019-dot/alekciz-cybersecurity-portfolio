@@ -1,10 +1,10 @@
-# 🐧 Linux Security & System Hardening
+#  Linux Security & System Hardening
 
 This section contains Linux security configurations, system auditing exercises, user account investigations, and hardening practices commonly used in SOC and system administration environments.
 
 ---
 
-## 📌 Objectives
+##  Objectives
 - Perform user and permission audits  
 - Analyze system logs for suspicious activity  
 - Harden Linux configurations  
@@ -13,7 +13,7 @@ This section contains Linux security configurations, system auditing exercises, 
 
 ---
 
-## 📂 Contents
+##  Contents
 - **user-audit.md** – review of users, groups, privileges  
 - **log-review.md** – security-relevant log analysis  
 - **hardening-steps.md** – system hardening procedures  
@@ -22,7 +22,7 @@ This section contains Linux security configurations, system auditing exercises, 
 
 ---
 
-## 🧪 Basic User Audit Example
+##  Basic User Audit Example
 
 Commands used:**Findings:**
 - Root account correctly configured  
@@ -34,7 +34,7 @@ Disable or remove unused legacy accounts.
 
 ---
 
-## 🧪 Log Review Example
+##  Log Review Example
 
 Checked the following log files:**Suspicious Indicators:**
 - Multiple failed login attempts from IP 192.168.1.200  
@@ -48,7 +48,7 @@ Checked the following log files:**Suspicious Indicators:**
 
 ---
 
-## 🛠 Hardening Steps Example
+##  Hardening Steps Example
 
 Common system hardening includes:
 
@@ -61,7 +61,7 @@ Common system hardening includes:
 
 Example commands:---
 
-## 📝 Sample Analyst Summary
+##  Sample Analyst Summary
 
 **Event:** Unauthorized sudo usage  
 **Severity:** High  
@@ -76,7 +76,7 @@ System logs revealed repeated sudo attempts from an unprivileged user account du
 
 ---
 
-## ✅ Skills Demonstrated
+##  Skills Demonstrated
 - Linux Administration  
 - System Hardening  
 - Log Analysis  
