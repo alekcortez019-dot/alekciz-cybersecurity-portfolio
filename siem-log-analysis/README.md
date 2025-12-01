@@ -1,10 +1,10 @@
-# 🛰️ SIEM Monitoring and Log Analysis
+# SIEM Monitoring and Log Analysis
 
 This section contains hands on SIEM investigations, log analysis exercises, and security detections created through my home SOC lab environment.
 
 ---
 
-## 📌 Objectives
+##  Objectives
 - Identify suspicious authentication patterns  
 - Analyze Windows event logs  
 - Detect port scans and brute force attempts  
@@ -21,11 +21,11 @@ This section contains hands on SIEM investigations, log analysis exercises, and 
 
 ---
 
-## 🧪 Sample Splunk Queries
+##  Sample Splunk Queries
 
 ### **Failed login attempts by username**### **Possible brute force detection**### **Port scan detection**### ---
 
-## 🚨 Sample Incident Summary
+## Sample Incident Summary
 
 **Incident Name:** Multiple Failed Login Attempts  
 **Category:** Authentication Anomaly  
@@ -46,7 +46,7 @@ A high number of failed authentication attempts were observed within a 3 minute 
 
 ---
 
-## ✅ Skills Demonstrated
+## Skills Demonstrated
 - SIEM Monitoring  
 - SPL Query Creation  
 - Threat Detection  
