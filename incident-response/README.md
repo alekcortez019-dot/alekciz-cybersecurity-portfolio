@@ -2,8 +2,6 @@
 
 This section includes documented incident response exercises, phishing investigations, alert triage workflows, and escalation reports modeled after real SOC Tier 1 analyst responsibilities.
 
----
-
 ## Objectives
 - Identify indicators of compromise (IOCs)  
 - Analyze suspicious email headers and attachments  
@@ -11,16 +9,12 @@ This section includes documented incident response exercises, phishing investiga
 - Escalate incidents using proper SOC workflow  
 - Produce clear, structured IR documentation  
 
----
-
 ##  Contents
 - **phishing-investigation.md** – analysis of suspicious emails, headers, links, and IOCs  
 - **alert-triage.md** – sample workflow for validating alerts  
 - **escalation-report.md** – sample escalation to Tier 2  
 - **ioc-list.md** – list of known malicious hashes, IPs, and domains  
 - **screenshots/** – investigation screenshots to support findings  
-
----
 
 ##  Phishing Email Investigation Example
 
@@ -39,8 +33,6 @@ Alert classified as *Malicious Phishing Attempt*
 - Quarantined email  
 - Notified end user  
 - Documented IOCs  
-
----
 
 ##  Basic Alert Triage Workflow
 
@@ -65,8 +57,6 @@ Alert classified as *Malicious Phishing Attempt*
    - SOC documentation  
    - IR summary report  
 
----
-
 ##  Sample Escalation Summary
 
 **Alert:** Possible credential compromise  
@@ -80,9 +70,7 @@ Multiple failed login attempts for a privileged account detected over 2 minutes 
 **Recommended Action:**  
 - Reset affected account credentials  
 - Block source IP  
-- Enable MFA if not already enforced  
-
----
+- Enable MFA if not already enforced 
 
 ##  Skills Demonstrated
 - Incident Triage  
